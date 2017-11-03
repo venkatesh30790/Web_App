@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="13" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="455235" started-at="2017-11-03T08:03:50Z" finished-at="2017-11-03T08:11:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="455235" started-at="2017-11-03T08:03:50Z" finished-at="2017-11-03T08:11:26Z">
+      <class name="com.crm.qa.testcases.Fleet_InviteDriver">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Fleet_InviteDriver@1794d431]" name="setUp" is-config="true" duration-ms="14246" started-at="2017-11-03T13:34:37Z" finished-at="2017-11-03T13:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InviteDriver1()[pri:1, instance:com.crm.qa.testcases.Fleet_InviteDriver@1794d431]" name="InviteDriver1" duration-ms="49428" started-at="2017-11-03T13:34:51Z" finished-at="2017-11-03T13:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InviteDriver1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.Fleet_InviteDriver@1794d431]" name="tearDown" is-config="true" duration-ms="544" started-at="2017-11-03T13:35:40Z" finished-at="2017-11-03T13:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Fleet_InviteDriver@1794d431]" name="setUp" is-config="true" duration-ms="13424" started-at="2017-11-03T13:38:17Z" finished-at="2017-11-03T13:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="InviteDriver2()[pri:2, instance:com.crm.qa.testcases.Fleet_InviteDriver@1794d431]" name="InviteDriver2" duration-ms="458" started-at="2017-11-03T13:38:30Z" finished-at="2017-11-03T13:38:30Z">
+          <exception class="org.openqa.selenium.InvalidElementStateException">
+            <message>
+              <![CDATA[Element is not enabled
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WIDASVENKATESH', ip: '192.168.5.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Venkatesh\AppData\Local\Temp\rust_mozprofile.Zmt7BYUEatpv, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0.2, platformVersion=10.0, moz:processID=9788, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 15ce319d-6ff6-4b19-9953-0b24590c5192]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidElementStateException: Element is not enabled
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WIDASVENKATESH', ip: '192.168.5.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Venkatesh\AppData\Local\Temp\rust_mozprofile.Zmt7BYUEatpv, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0.2, platformVersion=10.0, moz:processID=9788, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 15ce319d-6ff6-4b19-9953-0b24590c5192
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at com.crm.qa.testcases.Fleet_InviteDriver.InviteDriver2(Fleet_InviteDriver.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidElementStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InviteDriver2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.Fleet_InviteDriver@1794d431]" name="tearDown" is-config="true" duration-ms="452" started-at="2017-11-03T13:38:30Z" finished-at="2017-11-03T13:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.Fleet_InviteDriver -->
+      <class name="com.crm.qa.testcases.Invite_Vehicle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Invite_Vehicle@57baeedf]" name="setUp" is-config="true" duration-ms="13651" started-at="2017-11-03T13:36:33Z" finished-at="2017-11-03T13:36:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InviteVehicle1()[pri:1, instance:com.crm.qa.testcases.Invite_Vehicle@57baeedf]" name="InviteVehicle1" duration-ms="35029" started-at="2017-11-03T13:36:47Z" finished-at="2017-11-03T13:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InviteVehicle1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.Invite_Vehicle@57baeedf]" name="tearDown" is-config="true" duration-ms="538" started-at="2017-11-03T13:37:22Z" finished-at="2017-11-03T13:37:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Invite_Vehicle@57baeedf]" name="setUp" is-config="true" duration-ms="13168" started-at="2017-11-03T13:38:47Z" finished-at="2017-11-03T13:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InviteVehicle2()[pri:2, instance:com.crm.qa.testcases.Invite_Vehicle@57baeedf]" name="InviteVehicle2" duration-ms="38542" started-at="2017-11-03T13:39:00Z" finished-at="2017-11-03T13:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InviteVehicle2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.Invite_Vehicle@57baeedf]" name="tearDown" is-config="true" duration-ms="555" started-at="2017-11-03T13:39:39Z" finished-at="2017-11-03T13:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.Invite_Vehicle -->
+      <class name="com.crm.qa.testcases.UpdateFleet">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.UpdateFleet@39c0f4a]" name="setUp" is-config="true" duration-ms="16342" started-at="2017-11-03T13:33:51Z" finished-at="2017-11-03T13:34:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="UpdateFleet1()[pri:1, instance:com.crm.qa.testcases.UpdateFleet@39c0f4a]" name="UpdateFleet1" duration-ms="29036" started-at="2017-11-03T13:34:07Z" finished-at="2017-11-03T13:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateFleet1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.UpdateFleet@39c0f4a]" name="tearDown" is-config="true" duration-ms="650" started-at="2017-11-03T13:34:36Z" finished-at="2017-11-03T13:34:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.UpdateFleet@39c0f4a]" name="setUp" is-config="true" duration-ms="14788" started-at="2017-11-03T13:37:23Z" finished-at="2017-11-03T13:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="VehicleBooking()[pri:2, instance:com.crm.qa.testcases.UpdateFleet@39c0f4a]" name="VehicleBooking" duration-ms="38526" started-at="2017-11-03T13:37:38Z" finished-at="2017-11-03T13:38:16Z">
+          <exception class="org.openqa.selenium.InvalidElementStateException">
+            <message>
+              <![CDATA[Element is not enabled
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WIDASVENKATESH', ip: '192.168.5.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Venkatesh\AppData\Local\Temp\rust_mozprofile.UuaEhFE2q2yz, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0.2, platformVersion=10.0, moz:processID=4308, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 240a1652-dc12-453b-947b-cc69229850ba]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidElementStateException: Element is not enabled
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'WIDASVENKATESH', ip: '192.168.5.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Venkatesh\AppData\Local\Temp\rust_mozprofile.UuaEhFE2q2yz, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0.2, platformVersion=10.0, moz:processID=4308, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 240a1652-dc12-453b-947b-cc69229850ba
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at com.crm.qa.testcases.UpdateFleet.VehicleBooking(UpdateFleet.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidElementStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VehicleBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.UpdateFleet@39c0f4a]" name="tearDown" is-config="true" duration-ms="576" started-at="2017-11-03T13:38:16Z" finished-at="2017-11-03T13:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.UpdateFleet -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="setUp" is-config="true" duration-ms="12860" started-at="2017-11-03T13:35:41Z" finished-at="2017-11-03T13:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginLogout()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="loginLogout" duration-ms="39327" started-at="2017-11-03T13:35:54Z" finished-at="2017-11-03T13:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="tearDown" is-config="true" duration-ms="524" started-at="2017-11-03T13:36:33Z" finished-at="2017-11-03T13:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="setUp" is-config="true" duration-ms="14346" started-at="2017-11-03T13:38:31Z" finished-at="2017-11-03T13:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginLogoutvalidation()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="loginLogoutvalidation" duration-ms="1452" started-at="2017-11-03T13:38:45Z" finished-at="2017-11-03T13:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogoutvalidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="tearDown" is-config="true" duration-ms="391" started-at="2017-11-03T13:38:47Z" finished-at="2017-11-03T13:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="setUp" is-config="true" duration-ms="14868" started-at="2017-11-03T13:39:39Z" finished-at="2017-11-03T13:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginLogoutvalidation1()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="loginLogoutvalidation1" duration-ms="6010" started-at="2017-11-03T13:39:54Z" finished-at="2017-11-03T13:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogoutvalidation1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="tearDown" is-config="true" duration-ms="445" started-at="2017-11-03T13:40:00Z" finished-at="2017-11-03T13:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="setUp" is-config="true" duration-ms="15409" started-at="2017-11-03T13:40:01Z" finished-at="2017-11-03T13:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginLogoutvalidation2()[pri:4, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="loginLogoutvalidation2" duration-ms="5994" started-at="2017-11-03T13:40:16Z" finished-at="2017-11-03T13:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogoutvalidation2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="tearDown" is-config="true" duration-ms="440" started-at="2017-11-03T13:40:22Z" finished-at="2017-11-03T13:40:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="setUp" is-config="true" duration-ms="13549" started-at="2017-11-03T13:40:23Z" finished-at="2017-11-03T13:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgotpassword()[pri:5, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="forgotpassword" duration-ms="6303" started-at="2017-11-03T13:40:36Z" finished-at="2017-11-03T13:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="tearDown" is-config="true" duration-ms="539" started-at="2017-11-03T13:40:42Z" finished-at="2017-11-03T13:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="setUp" is-config="true" duration-ms="14241" started-at="2017-11-03T13:40:43Z" finished-at="2017-11-03T13:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgotpasswordVal1()[pri:6, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="forgotpasswordVal1" duration-ms="6300" started-at="2017-11-03T13:40:57Z" finished-at="2017-11-03T13:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordVal1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="tearDown" is-config="true" duration-ms="417" started-at="2017-11-03T13:41:04Z" finished-at="2017-11-03T13:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="setUp" is-config="true" duration-ms="15344" started-at="2017-11-03T13:41:04Z" finished-at="2017-11-03T13:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgotpasswordVal2()[pri:7, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="forgotpasswordVal2" duration-ms="6056" started-at="2017-11-03T13:41:19Z" finished-at="2017-11-03T13:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordVal2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@42e26948]" name="tearDown" is-config="true" duration-ms="407" started-at="2017-11-03T13:41:25Z" finished-at="2017-11-03T13:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

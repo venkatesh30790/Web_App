@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="14" failures="4" name="TestSuite" time="76.707" errors="0" skipped="9">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Venkatesh\Downloads\PageObjectModel-master\PageObjectModel-master"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Venkatesh\Downloads\PageObjectModel-master\PageObjectModel-master"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VENKAT~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Venkatesh\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1755993045164305664.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\Venkatesh\AppData\Local\Android\sdk\platform-tools;C:\Users\Venkatesh\AppData\Local\Android\sdk\tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Users\Venkatesh\Downloads\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\PuTTY\;C:\Users\Venkatesh\AppData\Local\Microsoft\WindowsApps;C:\Users\Venkatesh\AppData\Roaming\npm;C:\Users\Venkatesh\Music\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Venkatesh"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Venkatesh"/>
+    <property name="java.class.path" value="/C:/Users/Venkatesh/Music/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Venkatesh\Downloads\PageObjectModel-master\PageObjectModel-master\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="setUp" time="33.267">
+    <failure message="No frame element found by name or id mainpanel
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WIDASVENKATESH&apos;, ip: &apos;192.168.5.211&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchFrameException">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WIDASVENKATESH&apos;, ip: &apos;192.168.5.211&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:982)
+	at com.crm.qa.util.TestUtil.switchToFrame(TestUtil.java:12)
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:33)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2aae9190
+</system-out>
+    <system-err>1506685952512	geckodriver	INFO	geckodriver 0.18.0
+1506685952534	geckodriver	INFO	Listening on 127.0.0.1:34011
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+1506685953235	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args [&quot;-marionette&quot;]
+1506685953590	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:271 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:741 &lt; startup()@resource://gre/modules/AddonManager.jsm:908 &lt; startup()@resource://gre/modules/AddonManager.jsm:3122 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506685954134	Marionette	INFO	Enabled via --marionette
+1506685956165	Marionette	INFO	Listening on port 55505
+1506685956180	Marionette	INFO	Listening on port 55505
+1506685956460	Marionette	DEBUG	loaded listener.js
+Sep 29, 2017 5:22:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1506685956730	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1506685958417	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1506685958417	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1506685960137	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.freecrm.com/index.html&quot;
+1506685963382	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.google.co.in/ads/user-lists/965006909/?random=1506685960075&amp;cv=8&amp;fst=1506682800000&amp;num=1&amp;fmt=1&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;frm=0&amp;url=https%3A%2F%2Fwww.freecrm.com%2Findex.html&amp;tiba=%231%20Free%20CRM%20for%20Any%20Business%3A%20Online%20Customer%20Relationship%20Software&amp;cdct=2&amp;is_vtc=1&amp;random=182684580&amp;ipr=y&amp;ulfeg=n&quot;
+1506685963391	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.google.co.in/ads/user-lists/965006909/?random=1506685960075&amp;cv=8&amp;fst=1506682800000&amp;num=1&amp;fmt=1&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;frm=0&amp;url=https%3A%2F%2Fwww.freecrm.com%2Findex.html&amp;tiba=%231%20Free%20CRM%20for%20Any%20Business%3A%20Online%20Customer%20Relationship%20Software&amp;cdct=2&amp;is_vtc=1&amp;random=182684580&amp;ipr=y&amp;ulfeg=n&quot;
+1506685963433	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.freecrm.com/index.html&quot;
+1506685964357	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="verifyContactsPageLabel" time="33.274">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageTitleTest" time="0.031">
+    <failure message="Home page title not matched expected [CRMPRO] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]" type="java.lang.AssertionError">java.lang.AssertionError: Home page title not matched expected [CRMPRO] but found [#1 Free CRM for Any Business: Online Customer Relationship Software]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at com.crm.qa.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:42)
+</failure>
+    <system-err>1506685984694	geckodriver	INFO	geckodriver 0.18.0
+1506685984731	geckodriver	INFO	Listening on 127.0.0.1:28812
+1506685985097	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args [&quot;-marionette&quot;]
+1506685985696	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:271 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:741 &lt; startup()@resource://gre/modules/AddonManager.jsm:908 &lt; startup()@resource://gre/modules/AddonManager.jsm:3122 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506685986648	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+1506685990530	Marionette	INFO	Listening on port 55664
+1506685990653	Marionette	INFO	Listening on port 55664
+1506685991230	Marionette	DEBUG	loaded listener.js
+Sep 29, 2017 5:23:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1506685991528	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1506685993205	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1506685993205	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1506685994940	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.freecrm.com/index.html&quot;
+1506685996629	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.google.co.in/ads/user-lists/965006909/?random=1506685994783&amp;cv=8&amp;fst=1506682800000&amp;num=1&amp;fmt=1&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;frm=0&amp;url=https%3A%2F%2Fwww.freecrm.com%2Findex.html&amp;tiba=%231%20Free%20CRM%20for%20Any%20Business%3A%20Online%20Customer%20Relationship%20Software&amp;cdct=2&amp;is_vtc=1&amp;random=835223071&amp;ipr=y&amp;ulfeg=n&quot;
+1506685996632	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.google.co.in/ads/user-lists/965006909/?random=1506685994783&amp;cv=8&amp;fst=1506682800000&amp;num=1&amp;fmt=1&amp;guid=ON&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;frm=0&amp;url=https%3A%2F%2Fwww.freecrm.com%2Findex.html&amp;tiba=%231%20Free%20CRM%20for%20Any%20Business%3A%20Online%20Customer%20Relationship%20Software&amp;cdct=2&amp;is_vtc=1&amp;random=835223071&amp;ipr=y&amp;ulfeg=n&quot;
+1506685996712	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.freecrm.com/index.html&quot;
+1506685997994	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="tearDown" time="0.889">
+    <failure message="com/sun/jna/win32/StdCallLibrary" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: com/sun/jna/win32/StdCallLibrary
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:184)
+	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:128)
+	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:265)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:219)
+	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:127)
+	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:220)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:542)
+	at com.crm.qa.testcases.HomePageTest.tearDown(HomePageTest.java:61)
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.win32.StdCallLibrary
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 98 more
+</failure>
+    <system-err>1506685998041	Marionette	INFO	New connections will no longer be accepted
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.076"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="tearDown" time="1.016">
+    <failure message="org/openqa/selenium/os/Kernel32" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/openqa/selenium/os/Kernel32
+	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:184)
+	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:128)
+	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:265)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:219)
+	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:127)
+	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:220)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:542)
+	at com.crm.qa.testcases.LoginPageTest.tearDown(LoginPageTest.java:47)
+</failure>
+    <system-err>1506686011990	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="setUp" time="1.017">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="selectSingleContactsTest" time="1.017">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="setUp" time="1.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyUserNameTest" time="1.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="setUp" time="1.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="selectMultipleContactsTest" time="1.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="setUp" time="1.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyContactsLinkTest" time="1.02">
+    <skipped/>
+  </testcase>
+</testsuite>
